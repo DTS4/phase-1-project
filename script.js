@@ -1,5 +1,5 @@
 // Fetch the database from db.json
-let db = {};  // Initialize db
+let db = {};  
 
 fetch('./db.json')
     .then(response => response.json())
