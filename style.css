@@ -11,7 +11,18 @@ body {
     line-height: 1.6;
 }
 
- h1, h2, h3 {
+ h1, h2, h3 {#login-message {
+    background-color: #ffcc00;  
+    color: #333;  
+    padding: 1rem;  
+    margin-top: 1rem;  
+    border-radius: 5px;  
+    text-align: center;  
+    font-weight: bold;  
+    display: block;  
+    visibility: visible;  
+}
+
     font-family: 'Dancing Script', cursive;  
     color: #ff5733;  
 }
@@ -55,6 +66,18 @@ nav ul li a:hover {
 
 #login-btn:hover {
     background-color: #0056b3;
+}
+
+#login-message {
+    background-color: #ffcc00; 
+    color: #333; 
+    padding: 1rem; 
+    margin-top: 1rem; 
+    border-radius: 5px; 
+    text-align: center; 
+    font-weight: bold; 
+    display: block; 
+    visibility: visible; 
 }
 
 /* Hero Section Styles */

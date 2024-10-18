@@ -1,4 +1,9 @@
 {
+  "users": [
+    { "name": "John" },
+    { "name": "Jane" },
+    { "name": "Alice" }
+  ],
     "games": [
       {
         "id": 1,

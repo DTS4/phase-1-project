@@ -4,7 +4,7 @@ let db = {};  // Initialize db
 fetch('./db.json')
     .then(response => response.json())
     .then(data => {
-        db = data;  // Assign the fetched data to db
+        db = data;  // Assigns the fetched data to db
         initializeGameStore();  // Initializes game store functionality
     })
     .catch(error => console.error('Error fetching data:', error));
@@ -81,14 +81,24 @@ function initializeGameStore() {
     // Login Functionality
     document.getElementById('login-btn').addEventListener('click', () => {
         const userName = prompt("Enter your name:");
-
-        // Find user in the db
-        const user = db.users.find(user => user.name.toLowerCase() === userName.toLowerCase());
-
-        if (user) {
-            loginMessage.innerText = `Welcome, ${user.name}!`;
+    
+        // Ensure that db.users is populated before trying to find the user
+        if (db && db.users) {
+            const user = db.users.find(user => user.name.toLowerCase() === userName.toLowerCase());
+    
+            // Ensure loginMessage is defined and display the appropriate message
+            const loginMessage = document.getElementById('login-message');
+            if (loginMessage) {
+                if (user) {
+                    loginMessage.innerText = `Welcome, ${user.name}!`;
+                } else {
+                    loginMessage.innerText = "User not found!";
+                }
+            } else {
+                console.error('Login message element not found in the DOM.');
+            }
         } else {
-            loginMessage.innerText = "User not found!";
+            console.error('User database not available.');
         }
     });
-}
+}    
