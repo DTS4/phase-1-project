@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Store</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="#home-section">Home</a></li>
+            <li><a href="#games-section">Games</a></li>
+            <li><a href="#order-section">Order Now</a></li>
+            <li><a href="#contact-section">Contact</a></li>
+        </ul>
+        <button id="login-btn">Login</button>
+    </nav>
+    
+    <section id="home-section">
+        <h1>Welcome to the Game Store</h1>
+        <p>Discover and order your favorite games easily!</p>
+    </section>
+
+    <section id="games-section">
+        <h2>Available Games</h2>
+
+        <article>
+            <h3>Epic Fantasy Adventure</h3>
+            <p>Genre: RPG</p>
+            <p>Platform: PC</p>
+            <p>Price: $59.99</p>
+            <p>Rating: 4.8</p>
+            <p>Stock: 10 available</p>
+            <img src="https://res.cloudinary.com/dulnfomcr/image/upload/v1728974337/download_2_oaqkwx.jpg" alt="Epic Fantasy Adventure">
+            <button class="order-now" data-game-id="1">Order Now</button>
+        </article>
+
+        <article>
+            <h3>Space Explorer</h3>
+            <p>Genre: Sci-Fi</p>
+            <p>Platform: PC</p>
+            <p>Price: $49.99</p>
+            <p>Rating: 4.5</p>
+            <p>Stock: 7 available</p>
+            <img src="https://res.cloudinary.com/dulnfomcr/image/upload/v1728974337/download_3_vm4k8e.jpg" alt="Space Explorer">
+            <button class="order-now" data-game-id="2">Order Now</button>
+        </article>
+
+        <article>
+            <h3>Mystery Detective</h3>
+            <p>Genre: Puzzle</p>
+            <p>Platform: PC</p>
+            <p>Price: $39.99</p>
+            <p>Rating: 4.2</p>
+            <p>Stock: 5 available</p>
+            <img src="https://res.cloudinary.com/dulnfomcr/image/upload/v1728974030/download_1_xpdzgn.jpg" alt="Mystery Detective">
+            <button class="order-now" data-game-id="3">Order Now</button>
+        </article>
+
+        <article>
+            <h3>Zombie Survival</h3>
+            <p>Genre: Horror</p>
+            <p>Platform: PC</p>
+            <p>Price: $29.99</p>
+            <p>Rating: 4.7</p>
+            <p>Stock: 3 available</p>
+            <img src="https://res.cloudinary.com/dulnfomcr/image/upload/v1728973662/download_ksaf4m.jpg" alt="Zombie Survival">
+            <button class="order-now" data-game-id="4">Order Now</button>
+        </article>
+
+        <article>
+            <h3>Racing Pro</h3>
+            <p>Genre: Racing</p>
+            <p>Platform: PC</p>
+            <p>Price: $19.99</p>
+            <p>Rating: 4.3</p>
+            <p>Stock: 8 available</p>
+            <img src="https://res.cloudinary.com/dulnfomcr/image/upload/v1728974337/download_4_ciyiox.jpg" alt="Racing Pro">
+            <button class="order-now" data-game-id="5">Order Now</button>
+        </article>
+
+        <article>
+            <h3>Fantasy Kingdom Builder</h3>
+            <p>Genre: Strategy</p>
+            <p>Platform: PC</p>
+            <p>Price: $24.99</p>
+            <p>Rating: 4.6</p>
+            <p>Stock: 6 available</p>
+            <img src="https://res.cloudinary.com/dulnfomcr/image/upload/v1729064744/maxresdefault_egtnie.jpg" alt="Fantasy Kingdom Builder">
+            <button class="order-now" data-game-id="6">Order Now</button>
+        </article>
+
+        <article>
+            <h3>VR Sports Simulator</h3>
+            <p>Genre: Sports</p>
+            <p>Platform: PC</p>
+            <p>Price: $34.99</p>
+            <p>Rating: 4.4</p>
+            <p>Stock: 12 available</p>
+            <img src="https://res.cloudinary.com/dulnfomcr/image/upload/v1729064744/pexels-tima-miroshnichenko-6498951-scaled-e1719957675453-930x620_ko4yhk.jpg" alt="VR Sports Simulator">
+            <button class="order-now" data-game-id="7">Order Now</button>
+        </article>
+
+        <article>
+            <h3>Alien Invasion</h3>
+            <p>Genre: Action</p>
+            <p>Platform: PC</p>
+            <p>Price: $44.99</p>
+            <p>Rating: 4.1</p>
+            <p>Stock: 4 available</p>
+            <img src="https://res.cloudinary.com/dulnfomcr/image/upload/v1729064745/3gWtGGKJanCfV2uf792K6E_ncp6s7.jpg" alt="Alien Invasion">
+            <button class="order-now" data-game-id="8">Order Now</button>
+        </article>
+
+        <article>
+            <h3>Wild West Showdown</h3>
+            <p>Genre: Action</p>
+            <p>Platform: PC</p>
+            <p>Price: $54.99</p>
+            <p>Rating: 4.0</p>
+            <p>Stock: 9 available</p>
+            <img src="https://res.cloudinary.com/dulnfomcr/image/upload/v1729064744/poster-hong-kong_rw3nik.webp" alt="Wild West Showdown">
+            <button class="order-now" data-game-id="9">Order Now</button>
+        </article>
+
+        <article>
+            <h3>Medieval Tactics</h3>
+            <p>Genre: Strategy</p>
+            <p>Platform: PC</p>
+            <p>Price: $22.99</p>
+            <p>Rating: 4.9</p>
+            <p>Stock: 11 available</p>
+            <img src="https://res.cloudinary.com/dulnfomcr/image/upload/v1729064744/crusader-kings-ii_nt1zna.jpg" alt="Medieval Tactics">
+            <button class="order-now" data-game-id="10">Order Now</button>
+        </article>
+
+    </section>
+
+      <!-- Modal for Order Confirmation -->
+      <div id="order-modal" style="display: none;">
+        <div class="modal-content">
+            <p id="order-message"></p>
+            <button id="confirm-order">Confirm Order</button>
+            <button id="cancel-order">Cancel</button>
+        </div>
+    </div>
+
+     <section id="cart-section">
+        <h2>Your Cart</h2>
+        <ul id="cart-items"></ul>
+    </section>
+
+     <div id="login-message"></div>
+
+    <footer>
+        <p>&copy; 2024 Game Store. All rights reserved.</p>
+        <p>Contact us at: support@gamestore.com</p>
+    </footer>
+
+    <script src="./script.js"></script>
+ </body>
+
+</html>

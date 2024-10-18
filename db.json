@@ -1,0 +1,115 @@
+{
+    "games": [
+      {
+        "id": 1,
+        "title": "Epic Fantasy Adventure",
+        "genre": "RPG",
+        "platform": "PC",
+        "price": 59.99,
+        "rating": 4.8,
+        "stock": 10,
+        "description": "Embark on a thrilling RPG experience with endless quests and epic battles.",
+        "image_url": "https://example.com/images/epic_fantasy_adventure.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Space Explorer",
+        "genre": "Sci-Fi",
+        "platform": "PC",
+        "price": 49.99,
+        "rating": 4.5,
+        "stock": 7,
+        "description": "Explore the vastness of space in this cutting-edge sci-fi adventure.",
+        "image_url": "https://example.com/images/space_explorer.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Mystery Detective",
+        "genre": "Puzzle",
+        "platform": "PC",
+        "price": 39.99,
+        "rating": 4.2,
+        "stock": 5,
+        "description": "Solve intricate puzzles and uncover the mystery in this thrilling detective game.",
+        "image_url": "https://example.com/images/mystery_detective.jpg"
+      },
+      {
+        "id": 4,
+        "title": "Zombie Survival",
+        "genre": "Horror",
+        "platform": "PC",
+        "price": 29.99,
+        "rating": 4.7,
+        "stock": 3,
+        "description": "Survive the undead apocalypse in this intense horror survival game.",
+        "image_url": "https://example.com/images/zombie_survival.jpg"
+      },
+      {
+        "id": 5,
+        "title": "Racing Pro",
+        "genre": "Racing",
+        "platform": "PC",
+        "price": 19.99,
+        "rating": 4.3,
+        "stock": 8,
+        "description": "Speed through the streets in this high-octane racing experience.",
+        "image_url": "https://example.com/images/racing_pro.jpg"
+      },
+      {
+        "id": 6,
+        "title": "Fantasy Kingdom Builder",
+        "genre": "Strategy",
+        "platform": "PC",
+        "price": 24.99,
+        "rating": 4.6,
+        "stock": 6,
+        "description": "Build your fantasy kingdom and lead it to glory in this strategy game.",
+        "image_url": "https://example.com/images/fantasy_kingdom_builder.jpg"
+      },
+      {
+        "id": 7,
+        "title": "VR Sports Simulator",
+        "genre": "Sports",
+        "platform": "PC",
+        "price": 34.99,
+        "rating": 4.4,
+        "stock": 12,
+        "description": "Experience your favorite sports in virtual reality.",
+        "image_url": "https://example.com/images/vr_sports_simulator.jpg"
+      },
+      {
+        "id": 8,
+        "title": "Alien Invasion",
+        "genre": "Action",
+        "platform": "PC",
+        "price": 44.99,
+        "rating": 4.1,
+        "stock": 4,
+        "description": "Defend Earth against alien invaders in this high-energy action game.",
+        "image_url": "https://example.com/images/alien_invasion.jpg"
+      },
+      {
+        "id": 9,
+        "title": "Wild West Showdown",
+        "genre": "Action",
+        "platform": "PC",
+        "price": 54.99,
+        "rating": 4.0,
+        "stock": 9,
+        "description": "Take on the role of a cowboy in the Wild West in this action-packed game.",
+        "image_url": "https://example.com/images/wild_west_showdown.jpg"
+      },
+      {
+        "id": 10,
+        "title": "Medieval Tactics",
+        "genre": "Strategy",
+        "platform": "PC",
+        "price": 22.99,
+        "rating": 4.9,
+        "stock": 11,
+        "description": "Command medieval armies and conquer your foes in this tactical strategy game.",
+        "image_url": "https://example.com/images/medieval_tactics.jpg"
+      }
+    ]
+  }
+  
